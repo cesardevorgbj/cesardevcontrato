@@ -1,3 +1,59 @@
-.h1 {
-    color: aqua;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background: #020617;
+}
+
+section {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #38bdf8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+}
+
+.projeto {
+    background: #020617;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+button {
+    background: #38bdf8;
+    color: #020617;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    font-size: 14px;
 }
